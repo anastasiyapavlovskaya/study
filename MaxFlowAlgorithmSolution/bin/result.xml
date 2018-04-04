@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<network>
+    <edge src_node="0" dst_node="2" flow="2500"/>
+    <edge src_node="2" dst_node="3" flow="500"/>
+    <edge src_node="2" dst_node="4" flow="750"/>
+    <edge src_node="2" dst_node="5" flow="1000"/>
+    <edge src_node="2" dst_node="6" flow="250"/>
+    <edge src_node="3" dst_node="7" flow="500"/>
+    <edge src_node="4" dst_node="8" flow="750"/>
+    <edge src_node="5" dst_node="9" flow="1000"/>
+    <edge src_node="6" dst_node="10" flow="250"/>
+    <edge src_node="7" dst_node="12" flow="400"/>
+    <edge src_node="7" dst_node="13" flow="100"/>
+    <edge src_node="8" dst_node="11" flow="750"/>
+    <edge src_node="9" dst_node="11" flow="1000"/>
+    <edge src_node="10" dst_node="11" flow="250"/>
+    <edge src_node="11" dst_node="15" flow="2000"/>
+    <edge src_node="12" dst_node="15" flow="400"/>
+    <edge src_node="13" dst_node="15" flow="100"/>
+</network>

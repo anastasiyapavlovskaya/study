@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<network xmlns="http://umeta.ru/namespaces/defect" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://umeta.ru/namespaces/defect defect.xsd">
+<node id="s" type="s" pi="0"/>
+<node id="1" pi="0"/>
+<node id="2" pi="0"/>
+<node id="3" pi="0"/>
+<node id="4" pi="0"/>
+<node id="5" pi="0"/>
+<node id="6" pi="0"/>
+<node id="7" pi="0"/>
+<node id="8" pi="0"/>
+<node id="t" type ="t" pi="0"/>
+<edge id="1" src_node="s" dst_node="1" C="5">0</edge>
+<edge id="2" src_node="s" dst_node="2" C="5">0</edge>
+<edge id="3" src_node="s" dst_node="3" C="8">0</edge>
+<edge id="4" src_node="1" dst_node="4" C="3">0</edge>
+<edge id="5" src_node="1" dst_node="2" C="4">0</edge>
+<edge id="6" src_node="2" dst_node="4" C="3">0</edge>
+<edge id="7" src_node="2" dst_node="5" C="3">0</edge>
+<edge id="8" src_node="3" dst_node="2" C="4">0</edge>
+<edge id="9" src_node="3" dst_node="6" C="5">0</edge>
+<edge id="10" src_node="4" dst_node="5" C="3">0</edge>
+<edge id="11" src_node="4" dst_node="7" C="3">0</edge>
+<edge id="12" src_node="5" dst_node="7" C="3">0</edge>
+<edge id="13" src_node="5" dst_node="t" C="3">0</edge>
+<edge id="14" src_node="6" dst_node="5" C="3">0</edge>
+<edge id="15" src_node="6" dst_node="t" C="2">0</edge>
+<edge id="16" src_node="6" dst_node="8" C="5">0</edge>
+<edge id="17" src_node="7" dst_node="t" C="6">0</edge>
+<edge id="18" src_node="8" dst_node="t" C="3">0</edge>
+</network>

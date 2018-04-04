@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  main.c
+c:\users\nasty\documents\учёба\3 курс\парпрог\heatequationnew\src\main.c(22): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+  HeatEquationNew.vcxproj -> C:\Users\nasty\Documents\учёба\3 курс\парпрог\HeatEquationNew\project\..\bin\HeatEquationNew_debug.exe
+  HeatEquationNew.vcxproj -> C:\Users\nasty\Documents\учёба\3 курс\парпрог\HeatEquationNew\project\..\bin\HeatEquationNew_debug.pdb (Full PDB)

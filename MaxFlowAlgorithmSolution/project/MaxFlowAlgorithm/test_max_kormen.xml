@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<network xmlns="http://umeta.ru/namespaces/defect" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://umeta.ru/namespaces/defect defect.xsd">
+<node id="s" type="s" pi="0"/>
+<node id="o" pi="0"/>
+<node id="p" pi="0"/>
+<node id="q" pi="0"/>
+<node id="r" pi="0"/>
+<node id="t" type ="t" pi="0"/>
+<edge id="1" src_node="s" dst_node="o" C="3">0</edge>
+<edge id="2" src_node="s" dst_node="p" C="3">0</edge>
+<edge id="3" src_node="o" dst_node="p" C="2">0</edge>
+<edge id="4" src_node="o" dst_node="q" C="3">0</edge>
+<edge id="5" src_node="p" dst_node="r" C="2">0</edge>
+<edge id="6" src_node="q" dst_node="r" C="4">0</edge>
+<edge id="7" src_node="q" dst_node="t" C="2">0</edge>
+<edge id="8" src_node="r" dst_node="t" C="3">0</edge>
+</network>

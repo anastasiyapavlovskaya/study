@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Background.cpp" />
+    <ClCompile Include="..\..\src\BlackHole.cpp" />
+    <ClCompile Include="..\..\src\Camera.cpp" />
+    <ClCompile Include="..\..\src\Coords.cpp" />
+    <ClCompile Include="..\..\src\Explosion.cpp" />
+    <ClCompile Include="..\..\src\Game.cpp" />
+    <ClCompile Include="..\..\src\GameInterface.cpp" />
+    <ClCompile Include="..\..\src\GravityObject.cpp" />
+    <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\Menu.cpp" />
+    <ClCompile Include="..\..\src\Ship.cpp" />
+    <ClCompile Include="..\..\src\SpaceObject.cpp" />
+    <ClCompile Include="..\..\src\Sprite.cpp" />
+    <ClCompile Include="..\..\src\Trajectory.cpp" />
+    <ClCompile Include="..\..\src\Utils.cpp" />
+    <ClCompile Include="..\..\src\Vector2f.cpp" />
+    <ClCompile Include="..\deps\jsoncpp\jsoncpp.cpp" />
+    <ClCompile Include="..\..\src\Flame.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Background.hpp" />
+    <ClInclude Include="..\..\src\BlackHole.hpp" />
+    <ClInclude Include="..\..\src\Camera.hpp" />
+    <ClInclude Include="..\..\src\Coords.hpp" />
+    <ClInclude Include="..\..\src\Effect.hpp" />
+    <ClInclude Include="..\..\src\Explosion.hpp" />
+    <ClInclude Include="..\..\src\Game.hpp" />
+    <ClInclude Include="..\..\src\GameInterface.hpp" />
+    <ClInclude Include="..\..\src\GravityObject.hpp" />
+    <ClInclude Include="..\..\src\Menu.hpp" />
+    <ClInclude Include="..\..\src\Ship.hpp" />
+    <ClInclude Include="..\..\src\SpaceObject.hpp" />
+    <ClInclude Include="..\..\src\Sprite.hpp" />
+    <ClInclude Include="..\..\src\Trajectory.hpp" />
+    <ClInclude Include="..\..\src\Utils.hpp" />
+    <ClInclude Include="..\..\src\Vector2f.hpp" />
+    <ClInclude Include="..\..\src\Flame.hpp" />
+  </ItemGroup>
+</Project>

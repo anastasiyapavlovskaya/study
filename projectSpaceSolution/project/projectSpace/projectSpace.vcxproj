@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Background.cpp" />
+    <ClCompile Include="..\..\src\BlackHole.cpp" />
+    <ClCompile Include="..\..\src\Camera.cpp" />
+    <ClCompile Include="..\..\src\Coords.cpp" />
+    <ClCompile Include="..\..\src\Explosion.cpp" />
+    <ClCompile Include="..\..\src\Flame.cpp" />
+    <ClCompile Include="..\..\src\Game.cpp" />
+    <ClCompile Include="..\..\src\GameInterface.cpp" />
+    <ClCompile Include="..\..\src\GravityObject.cpp" />
+    <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\Menu.cpp" />
+    <ClCompile Include="..\..\src\Ship.cpp" />
+    <ClCompile Include="..\..\src\SpaceObject.cpp" />
+    <ClCompile Include="..\..\src\Sprite.cpp" />
+    <ClCompile Include="..\..\src\Trajectory.cpp" />
+    <ClCompile Include="..\..\src\Utils.cpp" />
+    <ClCompile Include="..\..\src\Vector2f.cpp" />
+    <ClCompile Include="..\deps\jsoncpp\jsoncpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Background.hpp" />
+    <ClInclude Include="..\..\src\BlackHole.hpp" />
+    <ClInclude Include="..\..\src\Camera.hpp" />
+    <ClInclude Include="..\..\src\Coords.hpp" />
+    <ClInclude Include="..\..\src\Effect.hpp" />
+    <ClInclude Include="..\..\src\Explosion.hpp" />
+    <ClInclude Include="..\..\src\Flame.hpp" />
+    <ClInclude Include="..\..\src\Game.hpp" />
+    <ClInclude Include="..\..\src\GameInterface.hpp" />
+    <ClInclude Include="..\..\src\GravityObject.hpp" />
+    <ClInclude Include="..\..\src\Menu.hpp" />
+    <ClInclude Include="..\..\src\Ship.hpp" />
+    <ClInclude Include="..\..\src\SpaceObject.hpp" />
+    <ClInclude Include="..\..\src\Sprite.hpp" />
+    <ClInclude Include="..\..\src\Trajectory.hpp" />
+    <ClInclude Include="..\..\src\Utils.hpp" />
+    <ClInclude Include="..\..\src\Vector2f.hpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6F4A45E2-0529-4856-BEB2-4D66B6B88B73}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>projectSpace</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\bin\</OutDir>
+    <IntDir>$(SolutionDir)..\build\Debug\</IntDir>
+    <TargetName>$(ProjectName)_debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\bin\</OutDir>
+    <IntDir>$(SolutionDir)..\build\Release\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)deps\SFML-2.3.2\include;$(SolutionDir)deps\SFGUI\include;$(SolutionDir)deps\jsoncpp</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)deps\SFML-2.3.2\lib; $(SolutionDir)deps\SFGUI\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-window-d.lib;sfml-graphics-d.lib;sfgui-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)deps\SFML-2.3.2\include; $(SolutionDir)deps\SFGUI\include; $(SolutionDir)deps\jsoncpp</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)deps\SFML-2.3.2\lib; $(SolutionDir)deps\SFGUI\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfgui.lib;sfml-system.lib;sfml-window.lib;sfml-graphics.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

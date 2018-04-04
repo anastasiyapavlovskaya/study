@@ -1,0 +1,13 @@
+<edge src_node="0" dst_node="1" flow="1"/>
+
+<edge src_node="0" dst_node="2" flow="4"/>
+
+<edge src_node="1" dst_node="3" flow="1"/>
+
+<edge src_node="2" dst_node="3" flow="4"/>
+
+<edge src_node="3" dst_node="4" flow="3"/>
+
+<edge src_node="3" dst_node="5" flow="2"/>
+
+<edge src_node="4" dst_node="5" flow="3"/>

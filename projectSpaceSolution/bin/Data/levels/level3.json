@@ -1,0 +1,46 @@
+{
+  "objects": [
+    {
+      "type": "star",
+      "name": "star1",
+      "pos": [ 0.0, 0.0 ],
+      "prevPos": [ 0.0, 0.0 ],
+      "acceleration": [ 0.0, 0.0 ],
+      "mass": 2e6,
+      "radius": 100.0,
+      "path": "Data/stars/blueStar.png"
+    },
+    {
+      "type": "planet",
+      "name": "planet1",
+      "pos": [ 500.0, 0.0 ],
+      "prevPos": [ 500.0, 2.0 ],
+      "acceleration": [ 0.0, 0.0 ],
+      "mass": 1e3,
+      "radius": 20.0,
+      "path": "Data/planets/planet1.png"
+    },
+    {
+      "type": "portal",
+      "name": "portal1",
+      "pos": [ -700.0, 0.0 ],
+      "prevPos": [ -700.0, -1.6 ],
+      "acceleration": [ 0.0, 0.0 ],
+      "mass": 1e3,
+      "radius": 10.0,
+      "path": "Data/planets/planet1.png"
+    },
+    {
+      "type": "ship",
+      "name": "player",
+      "angle": 0.0,
+      "fuel": 50.0,
+      "pos": [ 450.0, 0.0 ],
+      "prevPos": [ 450.0, 2.5 ],
+      "acceleration": [ 0.0, 0.0 ],
+      "mass": 1e2,
+      "radius": 10.0,
+      "path": "Data/player1.png"
+    }
+  ]
+}

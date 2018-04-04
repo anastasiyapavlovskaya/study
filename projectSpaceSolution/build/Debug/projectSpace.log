@@ -1,0 +1,39 @@
+﻿  jsoncpp.cpp
+  Vector2f.cpp
+  Utils.cpp
+  Trajectory.cpp
+c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\trajectory.cpp(162): warning C4458: declaration of 'dt' hides class member
+  c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\trajectory.hpp(36): note: see declaration of 'TrajectoryComputer::dt'
+c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\trajectory.cpp(264): warning C4189: 'objectRadius': local variable is initialized but not referenced
+  Sprite.cpp
+  SpaceObject.cpp
+  Ship.cpp
+c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\ship.cpp(161): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Menu.cpp
+  main.cpp
+  GravityObject.cpp
+  GameInterface.cpp
+c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\gameinterface.cpp(14): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\gameinterface.cpp(16): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Game.cpp
+c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\game.cpp(26): warning C4100: 'gravityObject2': unreferenced formal parameter
+c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\game.cpp(26): warning C4100: 'gravityObject1': unreferenced formal parameter
+c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\game.cpp(532): warning C4458: declaration of 'ship' hides class member
+  c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\game.hpp(129): note: see declaration of 'Game::ship'
+c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\game.cpp(580): warning C4458: declaration of 'finishPortal' hides class member
+  c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\game.hpp(130): note: see declaration of 'Game::finishPortal'
+  Flame.cpp
+  Explosion.cpp
+  Coords.cpp
+c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\coords.cpp(29): warning C4458: declaration of 'pos' hides class member
+  c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\coords.hpp(23): note: see declaration of 'Coords2f::pos'
+c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\coords.cpp(33): warning C4458: declaration of 'xVector' hides class member
+  c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\coords.hpp(25): note: see declaration of 'Coords2f::xVector'
+  Camera.cpp
+  BlackHole.cpp
+  Background.cpp
+c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\background.cpp(45): warning C4100: 'dt': unreferenced formal parameter
+c:\users\nasty\documents\учёба\2 курс\информатика\projectspacesolution\src\background.cpp(53): warning C4189: 'alpha': local variable is initialized but not referenced
+  Generating Code...
+  projectSpace.vcxproj -> C:\Users\nasty\Documents\учёба\2 курс\информатика\projectSpaceSolution\project\..\bin\projectSpace_debug.exe
+  projectSpace.vcxproj -> C:\Users\nasty\Documents\учёба\2 курс\информатика\projectSpaceSolution\project\..\bin\projectSpace_debug.pdb (Full PDB)
