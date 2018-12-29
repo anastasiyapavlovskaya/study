@@ -1,0 +1,2 @@
+{"text": "The first test of counting words"}
+{"text": "test counting same words words"}

@@ -1,0 +1,5 @@
+{"item_name": "toothpaste", "item_cnt": 1010, "item_price": 200}
+{"item_name": "toothbrush", "item_cnt": 1020, "item_price": 200}
+{"item_name": "tomato paste", "item_cnt": 10, "item_price": 50}
+{"item_name": "paste", "item_cnt": 2000, "item_price": 500}
+{"item_name": "pasta", "item_cnt": 0, "item_price": 10}
